@@ -1,0 +1,16 @@
+{
+  "name": "typescript-3-build-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "tsc --build --clean src/server",
+    "build": "tsc -b src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.0.0-rc"
+  }
+}
